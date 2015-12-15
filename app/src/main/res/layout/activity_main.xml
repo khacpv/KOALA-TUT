@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <is.cinnamon.tuya.common.views.viewpager.SCViewPager
+        android:id="@+id/pagerMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/layout_intro"/>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/dotMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:centered="true"
+        app:fillColor="#fff"
+        app:radius="5dp"
+        app:strokeColor="#fff"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/joint_tuya"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:background="@drawable/xml_loginbtn"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:onClick="startTuyaApp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

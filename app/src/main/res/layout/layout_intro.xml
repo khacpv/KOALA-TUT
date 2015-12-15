@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/picture"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/overlay"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/mobileNormal"
+        android:layout_width="80dp"
+        android:layout_height="163dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/mobile_normal"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/pictureSend"
+        android:layout_width="180dp"
+        android:layout_height="433dp"
+        android:src="@drawable/picture_send"
+        android:scaleType="fitXY"
+        android:layout_marginTop="75dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/thumb00"
+        android:layout_width="163dp"
+        android:layout_height="185dp"
+        android:src="@drawable/thumb"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/frame"
+        android:layout_width="368dp"
+        android:layout_height="290dp"
+        android:src="@drawable/frame"
+        android:scaleType="fitXY"
+        android:layout_marginTop="75dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/megaText01"
+        android:layout_width="368dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="55dp"
+        android:textColor="#FFF"
+        android:textAllCaps="true"
+        android:text="HAVING"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/megaText02"
+        android:layout_width="368dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="95dp"
+        android:textColor="#FFF"
+        android:textAllCaps="true"
+        android:text="A LAUNCH"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/contact01"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/contact_01"
+        android:scaleType="fitXY"
+        android:layout_marginTop="164dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id="@+id/contact02"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/contact_02"
+        android:scaleType="fitXY"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="160dp"/>
+
+    <ImageView
+        android:id="@+id/contact03"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/contact_03"
+        android:scaleType="fitXY"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="260dp"/>
+
+    <ImageView
+        android:id="@+id/contact04"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/contact_06"
+        android:scaleType="fitXY"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="100dp"/>
+
+    <ImageView
+        android:id="@+id/contact05"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/contact_07"
+        android:scaleType="fitXY"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="300dp"/>
+
+    <ImageView
+        android:id="@+id/contact06"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/contact_04"
+        android:scaleType="fitXY"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="60dp"/>
+
+    <ImageView
+        android:id="@+id/contact07"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/contact_05"
+        android:scaleType="fitXY"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="250dp"/>
+
+    <TextView
+        android:id="@+id/introCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:text="Quickly take a photo"/>
+
+    <TextView
+        android:id="@+id/introEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="30dp"
+        android:text="Select frames and texts"/>
+
+    <TextView
+        android:id="@+id/introSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginTop="530dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:text="and share to your friends"/>
+
+    <LinearLayout
+        android:id="@+id/capture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/xml_capture_bg"
+        android:layerType="software" />
+</RelativeLayout>
